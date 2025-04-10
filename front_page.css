@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to right, #38bdf8, #3b82f6);
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    background: transparent;
+    border-bottom: 2px solid white;
+    overflow: hidden;
+  }
+  
+  .nav-links li {
+    padding: 10px 70px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .text-content {
+    max-width: 500px;
+  }
+  
+  .text-content h1 {
+    font-family: 'The Seasons', serif;
+    font-style: 'italic';
+    font-size: 5em;
+    margin-bottom: 20px;
+  }
+  
+  .role-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .quote {
+    font-style: italic;
+    margin-bottom: 30px;
+    font-size: 2em;
+  }
+  
+  .cta {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    position: relative;
+    padding-left: 100px;
+    right: -900px;
+    bottom: -20px;
+  }
+  
+  .image-container {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .image-container img {
+    width: 300px;
+    transform: scale(1.12);
+    object-fit: cover;
+    border-radius: 100% 100% 100% 100% / 100% 100% 100% 100%;
+    position: relative;
+    left: -100%;
+    top:-10px;
+  }
+  

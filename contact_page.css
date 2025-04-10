@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    /* margin: 0; */
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to right, #38bdf8, #3b82f6);;
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+   .nav-links {
+    list-style: none;
+    display: flex;
+    background: transparent;
+    border-bottom: 2px solid white;
+    overflow: hidden;
+  }
+  
+  .nav-links li {
+    padding: 12px 70px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  .contact-section {
+    padding: 2rem;
+  }
+  
+  .contact-section h1 {
+    font-size: 4.8rem;
+    font-family: 'Georgia', serif;
+    margin-bottom: 0.5rem;
+  }
+  
+  .divider {
+    border: 1px solid white;
+    width: 270px;
+    margin-left: 0;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 15rem;
+    margin: 2rem 0;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    max-width: 250px;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .social-media {
+    display: flex;
+    gap: 24.1rem;
+    align-items: center;
+    margin: 2rem 0;
+  }
+  
+  .social-icon {
+    text-align: center;
+  }
+  
+  .social-icon img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .cta {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    position: relative;
+    padding-left: 100px;
+    right: -900px;
+    bottom: -20px;
+  }
+  
